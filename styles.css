@@ -79,7 +79,7 @@ nav > ul {
 nav > ul.ul {
   flex-direction: column;
   position: fixed;
-  right: -100%;
+  right: 0%;
   top: 4.4em;
   background-color: #191919;
   width: 50%;
