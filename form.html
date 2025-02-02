@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header id="kepala">
+      <h1 id="logo">OS-Cendekia</h1>
+      <nav>
+        <ul class="ul">
+          <li><a href="#main">Home</a></li>
+          <li><a href="#about">Competition</a></li>
+          <li><a href="#History">History</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="form">
+      <form action="" method="get">
+        <div class="school fa">
+          <label for="Sekolah">Sekolah</label>
+          <input type="text" placeholder="MAN 2 Malang" name="school"/>
+        </div>
+        <div class="pj fa">
+          <label for="Guru">Guru Pembimbing 1</label>
+          <input type="text" placeholder="El Gasing" />
+          <input type="text" placeholder="+628888888" name="guru1"/>
+        </div>
+        <div class="pj fa">
+          <label for="Guru">Guru Pembimbing 2</label>
+          <input type="text" placeholder="El Gasing (jika ada)" />
+          <input type="text" placeholder="+628888888 (jika ada)" name="guru2"/>
+        </div>
+        <div class="pj fa">
+          <label for="Guru">Guru Pembimbing 3</label>
+          <input type="text" placeholder="El Gasing (jika ada)" />
+          <input type="text" placeholder="+628888888 (jika ada)" name="guru3"/>
+        </div>
+        <div class="kab fa">
+          <label for="Kabupaten">Kabupaten/Kota</label>
+          <input type="text" placeholder="Konawe Selatan" name="kabupaten"/>
+        </div>
+        <div class="competition fa">
+          <label for="username">Cabang lomba</label>
+          <select name="substation">
+            <option value="Lomba1" selected>Lomba 1</option>
+            <option value="Lomba2">Lomba 2</option>
+            <option value="Lomba3">Lomba 3</option>
+            <option value="Lomba4">Lomba 4</option>
+            <option value="Lomba5">Lomba 5</option>
+            <option value="Lomba6">Lomba 6</option>
+            <option value="Lomba7">Lomba 7</option>
+          </select>
+        </div>
+        <div class="btn">
+          <input type="reset" class="reset"/>
+          <input type="submit" class="submit"/>
+        </div>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
