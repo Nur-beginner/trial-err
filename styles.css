@@ -152,7 +152,7 @@ main {
 main > h1 {
   font-family: transformers;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 2.5rem;
   text-align: center;
   color: rgb(209, 57, 2);
   animation: glow 2s ease-in-out 1 forwards;
@@ -206,8 +206,9 @@ section {
 .about > h2 {
   color: rgb(88, 194, 88);
   text-shadow: 0 2px 4px rgb(13, 94, 10);
-  font-size: 1rem;
+  font-size: 2.5rem;
   font-family: Helvetica, sans-serif;
+  text-align: center;
 }
 .exp{
   background: linear-gradient(to bottom right, #ce8535, #ce8535, #b25518);
