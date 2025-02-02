@@ -156,6 +156,7 @@ main > h1 {
   text-align: center;
   color: rgb(209, 57, 2);
   animation: glow 2s ease-in-out 1 forwards;
+  margin: .5em;
 }
 @keyframes glow{
   50%{
