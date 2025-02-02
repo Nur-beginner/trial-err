@@ -86,12 +86,14 @@ nav > ul.ul {
   visibility: hidden;
   height: 100vh;
   text-align: center;
+  opacity: 0%;
   gap: 2em;
   padding: 1em;
   transition: 0.3s;
   align-items: center;
 }
 nav > ul.ul.active {
+  opacity: 100%;
   visibility: inherit;
   right: -1px;
 }
